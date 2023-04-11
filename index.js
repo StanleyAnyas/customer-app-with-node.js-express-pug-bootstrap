@@ -43,5 +43,5 @@ app.post('/addcustomers', (req, res) => {
 });
 
 app.listen(process.env.PORT || port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example app listening at http://localhost:${port}/customers`)
 });
